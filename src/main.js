@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Vulma from 'vulma'
 
+Vue.use(Vulma)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
