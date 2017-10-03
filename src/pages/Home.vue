@@ -1,19 +1,26 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <header></header>
-      
+  <div>
+    <top-menu />
+    <div class="section">
+      <div class="container">
+          <h1 class="title">
+            Home page
+          </h1>
+          <p class="subtitle">
+            Home content
+          </p>
+      </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
-import Header from '@/components/Header'
+import header from '@/components/Header'
 
 export default {
   name: 'home',
   components: {
-    'header': Header
+    'top-menu': header
   }
 }
 </script>
