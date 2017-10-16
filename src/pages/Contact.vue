@@ -4,10 +4,10 @@
       <div class="section">
         <div class="container">
             <h1 class="title">
-              About page
+              Contact page
             </h1>
             <p class="subtitle">
-              About content
+              Contact content
             </p>
         </div>
       </div>
@@ -17,7 +17,7 @@
 <script>
 import header from '@/components/Header'
 export default {
-  name: 'about',
+  name: 'contact',
   components: {
     'top-menu': header
   }

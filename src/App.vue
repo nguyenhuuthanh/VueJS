@@ -6,7 +6,22 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      items: [
+        {
+          text: 'Link One'
+        },
+        {
+          text: 'Link Two'
+        },
+        {
+          text: 'Link Three'
+        }
+      ]
+    }
+  }
 }
 </script>
 

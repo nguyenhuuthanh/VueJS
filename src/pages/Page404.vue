@@ -1,17 +1,18 @@
 <template>
   <div>
-    <div class="section">
-      <div class="container">
-         Trang home
+      <div class="section">
+        <div class="container">
+            <h1 class="title">
+              Page not found
+            </h1>
+        </div>
       </div>
-    </div>
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'home'
+  name: 'about'
 }
 </script>
 
